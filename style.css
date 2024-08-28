@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: hsl(317, 82%, 73%);
+    background: hsl(0, 0%, 0%);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(0, 0, 0);
+    background: hsl(0, 51%, 43%);
     display: flex;
 }
 .sidebar {
@@ -55,7 +55,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px rgb(252, 134, 210) ridge;
+    border: 4px rgb(0, 0, 0) ridge;
     padding: 8px;
 }
 h2, h3 {
