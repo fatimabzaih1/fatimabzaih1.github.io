@@ -9,7 +9,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-color: pink;
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -103,22 +103,28 @@
 			function handleBoxClick() {
 
 				positionX = 0;
-				speed = speed + 3;
-				points = points + 10;
-				changeBoxText(points);
-				console.log(speed);
-				if (speed > 0);
-				speed =+ 3;
-				if (speed < 0);
-				speed -= 3;
+				positionX = 0;
+                if(speed > 0)
+             {
+                speed += 3;
+             }
+                else if(speed < 0)
+             {
+                speed -= 3;
+              }
+                points = points + 1;
+
+
+                changeBoxText(points);
+             };
+
 				
-            };
 
 
 
 
 
-		})();
+		    })();
 	</script>
 </body>
 
